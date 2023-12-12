@@ -3,11 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./image/logo.png">
     <title>Md Ibrahim Khalil</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/521c72dd01.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1>hello</h1>
+<body class="max-w-[1900px] mx-auto">
+    <!-- <header class="px-[5%] md:px-[8%] lg:px-[10%] border-b sticky top-0 z-10">
+        <div class="flex place-items-center justify-between">
+            <div>
+                <img src="./image/logo.png" alt="" class="h-[80px] w-[190px]">
+            </div>
+            <div id="menu" class="text-xl space-x-8">
+                <a href="#home" class="item active">Home</a>
+                <a href="#about" class="item">About</a>
+                <a class="item">Service</a>
+                <a class="item">Contact</a>
+                <a class="item">Projects</a>
+            </div>
+        </div>
+    </header> -->
+
+    <!-- banner section  -->
+
+    <div style="background-image: url(https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg);" class="bg-black sticky top-0 bg-no-repeat bg-cover bg-center">
+        <div class="bg-[#000000cc] text-center text-white py-32 lg:py-[200px]">
+            <h4 class="text-2xl mb-5">Welcome To My Website</h4>
+            <h1 class="text-7xl font-bold">I'm a Professional <br> <span class="text-[#FF0000]">MERN</span> Stack Web Developer</h1>
+            <p class="text-xl mt-3"></p>
+            <button class="bg-white mt-10 text-black border border-white rounded-md px-6 py-3 text-xl font-semibold hover:bg-[#ffffff00] hover:text-white">Download Resume</button>
+        </div>
+    </div>
+
+    <!-- about section  -->
+    <div id="about" class="bg-white pt-12 sticky top-0 h-screen section px-[5%] md:px-[8%] lg:px-[10%]">
+        <h1 class="text-5xl font-bold text-center">About Me</h1>
+        <hr class="border-2 border-[#FF0000] mb-10 mt-4 w-16 mx-auto">
+        <div class="flex bg-[#8080800f] rounded-r-md rounded-bl-full rounded-tl-full">
+            <div class="flex-1 pr-10">
+                <img src="./image/about.jpg" alt="" class="w-full h-[530px] rounded-bl-full rounded-br-full rounded-tl-full">
+                
+            </div>
+            <div class="flex-1 pl-10 pt-10">
+                <h1 class="text-3xl font-semibold">Hello, I'm Md Ibrahim Khalil</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis laoreet elementum.</p>
+                <div class="flex gap-5 pt-10 text-lg">
+                    <ul class="font-semibold">
+                        <li>Name</li>
+                        <li>Age</li>
+                        <li>Address</li>
+                        <li>Profession</li>
+                        <li>Education</li>
+                        <li class="text-[0px]">.</li>
+                        <li>Phone Number</li>
+                        <li>Email Address</li>
+                    </ul>
+                    <ul>
+                        <li>:</li>
+                        <li>:</li>
+                        <li>:</li>
+                        <li>:</li>
+                        <li>:</li>
+                        <li class="text-[0px]">.</li>
+                        <li>:</li>
+                        <li>:</li>
+                    </ul>
+                    <ul>
+                        <li>Md Ibrahim Khalil</li>
+                        <li>23</li>
+                        <li>Homna, Cumilla, Bangladesh</li>
+                        <li>Web Development</li>
+                        <li>HSC - 2020</li>
+                        <li>BSS - 2023</li>
+                        <li>+880 18375 - 08011</li>
+                        <li>mdibrahimkhalil0183@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service section  -->
+    <div class="bg-white pt-12 h-screen sticky top-0 px-[5%] md:px-[8%] lg:px-[10%] section">
+        <h1 class="text-5xl font-bold text-center">My Services</h1>
+        <hr class="border-2 border-[#FF0000] mb-10 mt-4 w-16 mx-auto">
+        <div class="grid grid-cols-3 gap-10">
+            <div class="shadow-lg shadow-[#00000021] text-center">
+                <div>
+                    <img src="./image/front.png" alt="" class="rounded-t-md w-full h-56">
+                </div>
+                <div class="px-3 py-4">
+                    <h4 class="text-2xl font-medium">Front end Development</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum</p>
+                </div>
+            </div>
+            <div class="shadow-lg shadow-[#00000021] text-center">
+                <div>
+                    <img src="./image/back.png" alt="" class="rounded-t-md w-full h-56">
+                </div>
+                <div class="px-3 py-4">
+                    <h4 class="text-2xl font-medium">Back end Development</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum</p>
+                </div>
+            </div>
+            <div class="shadow-lg shadow-[#00000021] text-center">
+                <div>
+                    <img src="./image/full.png" alt="" class="rounded-t-md w-full h-56">
+                </div>
+                <div class="px-3 py-4">
+                    <h4 class="text-2xl font-medium">Full Stack Development</h4>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum</p>
+                </div>
+            </div>
+        </div>
+       <div class="text-center">
+        <button class="bg-white mt-10 border border-black rounded-md px-6 py-3 text-xl font-semibold hover:bg-black hover:text-white">HIRE ME</button>
+       </div>
+    </div>
+
+    <!-- skills section  -->
+    <div class="bg-white pt-12 h-screen sticky top-0 px-[5%] md:px-[8%] lg:px-[10%] section">
+        <h1 class="text-5xl font-bold text-center">My Skills</h1>
+        <hr class="border-2 border-[#FF0000] mb-10 mt-4 w-16 mx-auto">
+
+        <div class="w-1/2 mx-auto">
+            <div class="flex justify-between">
+                <h1>Tailwind </h1>
+                <h1>90%</h1>
+            </div>
+            <div class="w3-light-grey w3-round">
+                <div class="w3-container w3-round w3-blue h-2" style="width:90%"></div>
+            </div>
+            <div class="flex justify-between mt-5">
+                <h1>Javascript </h1>
+                <h1>70%</h1>
+            </div>
+            <div class="w3-light-grey w3-round">
+                <div class="w3-container w3-round w3-blue h-2" style="width:70%"></div>
+            </div>
+            <div class="flex justify-between mt-5">
+                <h1>React </h1>
+                <h1>80%</h1>
+            </div>
+            <div class="w3-light-grey w3-round">
+                <div class="w3-container w3-round w3-blue h-2" style="width:80%"></div>
+            </div>
+            <div class="flex justify-between mt-5">
+                <h1>Next js</h1>
+                <h1>50%</h1>
+            </div>
+            <div class="w3-light-grey w3-round">
+                <div class="w3-container w3-round w3-blue h-2" style="width:50%"></div>
+            </div>
+            <div class="flex justify-between mt-5">
+                <h1>Express js</h1>
+                <h1>60%</h1>
+            </div>
+            <div class="w3-light-grey w3-round">
+                <div class="w3-container w3-round w3-blue h-2" style="width:60%"></div>
+            </div>
+            <div class="flex justify-between mt-5">
+                <h1>MongoDB</h1>
+                <h1>75%</h1>
+            </div>
+            <div class="w3-light-grey w3-round">
+                <div class="w3-container w3-round w3-blue h-2" style="width:75%"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="bg-gray-800 h-screen sticky top-0">hello</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+        const menu = document.getElementById("menu");
+        const items = menu.getElementsByClassName("item");
+        for (let i = 0; i < items.length; i++) {
+            items[i].addEventListener("click", function() {
+                const current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script> -->
     
 </body>
 </html>
