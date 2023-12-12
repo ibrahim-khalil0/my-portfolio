@@ -23,3 +23,7 @@
   .section {
     box-shadow: 0px 0px 12px #00000017
   }
+
+  .project:hover .hidden{
+    display: block;
+  }
